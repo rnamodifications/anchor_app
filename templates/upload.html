@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="form1" method="post" action="/seq/upload" enctype="multipart/form-data">
+	    <div>
+			<input id="File1" type="file" accept=".csv" name="myfile"/><br/>
+			<p>
+
+			<label>PPM Multiple </label> <input id="ppm_multi" name="ppm_multi" type="range" value="10" min="1" max="25" onchange="showValue(this.value)"/>
+			<span id="ppm_multi_txt">10</span>
+			<p>
+
+			<span >RT Min</span>
+			<input type="input" id="rt_min" name="rt_min" size="5" value="0"/>
+			<p>
+			<span >RT Max</span>
+			<input type="input" id="rt_max" name="rt_max" size="5" value="20"/>
+			<p>
+
+			<span >Mass Min</span>
+			<input type="input" id="mass_min" name="mass_min" size="5" value="600"/>
+			<p>
+			<span >Mass Max</span>
+			<input type="input" id="mass_max" name="mass_max" size="5" value="8000"/>
+			<p>
+
+			<input type="checkbox" id="use4nucle" name="use4nucle" class="switch" />
+			<span >Use Only 4 Nucleotides</span>
+			<p>
+			
+			<input type="checkbox" id="scatter_all" name="scatter_all" class="switch" />
+			<span >Draw Scatter Plot </span>
+			<p>
+			<input type="submit" onClick="this.form.submit(); this.disabled=true; this.value='Processing…'; "></input>
+		</div>
+</form>
+
+<script type="text/javascript">
+function showValue(newValue)
+{
+		document.getElementById("ppm_multi_txt").innerHTML=newValue;
+}
+</script>
+
+</body>
+</html>
