@@ -1,4 +1,4 @@
-# Anchor-based Algorithm
+# Web APP (Anchor-based Algorithm)
 
 ## Description
 The Flask App serves **Anchor-based Algorithm** to direct sequence RNA.
