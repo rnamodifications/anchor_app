@@ -7,19 +7,16 @@ The Flask App serves **Anchor-based Algorithm** to direct sequence RNA.
 
 ### Software requirements
 #### OS requirements
-This project is supported for macOS/Linux. The project has been tested on the following systems:
-- macOS: Sonoma 14.0
+This project is supported for macOS/Linux. The project has been tested on macOS (Sonoma 14.0).
 
 #### Python dependencies
-1. Python version 3.7+ is required. Go to https://www.python.org/downloads/ to download python and follow the instruction for installation.
+1. Python version 3.7+ is required. Go to the [Python Website](https://www.python.org/downloads/) to download python and follow the instruction for installation.
 2. The rest dependencies are listed inside requirements.txt, please refer to the [Prepare the Environment](#prepare-the-environment) section on how to install them. They should install within 1 minute, depending on your network speed.
 
 ## Download
-Clone this repository. Click the green button "Code" and click the "Download ZIP" button. Now a zip file named "anchor_app-main.zip" is downloaded. Unzip this file. In macOS/Linux system, usually the path of the project is ~/Downloads/anchor_app-main. In Windows system, suppose the path of the project is C:\anchor_app-main.
+Clone this repository. Click the green button "Code" and click the "Download ZIP" button. Now a zip file named "anchor_app-main.zip" is downloaded. Unzip this file. In macOS/Linux system, usually the path of the project is ~/Downloads/anchor_app-main.
 
 ## Prepare the Environment
-Environment preparation for macOS/Linux and Windows will be described separately.
-### Prepare the environment
 1. Open the Terminal.
 2. Create an virtual environment by entering the following command
 ```Bash
